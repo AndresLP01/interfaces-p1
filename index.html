@@ -9,19 +9,24 @@
     <h1>Formulario</h1>
     <hr>
     <form action="">
-        Nombre: <input type="text" name="campo_nombre" id="">
-        <br>
-        Apellidos: <input type="text" name="campo_apellido" id="">
-        <br>
-        Fecha Nacimiento: <input type="datetime" name="" id="">
-        <br>
-        Email: <input type="email" name="" id="">
-        <br>
-        Teléfono: <input type="text" name="" id="">
-        <br>
-        Contraseña: <input type="password" name="" id="">
-        <br>
-        Color Favorito: <input type="text" name="" id="">
+        Nombre: <input type="text" name="campo_nombre" id="" title="Introduzca su nombre"
+        autocomplete="Nombre">
+        <br><br>
+        Primer Apellido: <input type="text" name="campo_apellido" id="" title="Introduzca su primer apellido"
+        autocomplete="Primer Apellido">
+        <br><br>
+        Fecha Nacimiento: <input type="date" name="campo_fecha" id="">
+        <br><br>
+        Email: <input type="email" name="campo_email" id="" title="Introduzca su email"
+        autocomplete="ejemplo@email.com">
+        <br><br>
+        Teléfono: <input type="tel" name="campo_telefono" id="" maxlength="15" title="Introduzca su teléfono">
+        <br><br>
+        Contraseña: <input type="password" name="campo_password" id="" title="Introduzca su contraseña">
+        <br><br>
+        Color Favorito: <input type="text" name="campo_color" id="" title="Introduzca su color favorito">
+        <br><br>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
